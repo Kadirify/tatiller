@@ -1,10 +1,22 @@
+import { readFileSync } from 'node:fs';
 import { defineConfig } from 'tsup';
 
-export default defineConfig({
-  entry: ['src/index.ts'],
-  format: ['esm', 'cjs'],
-  dts: true,
-  clean: true,
-  sourcemap: true,
-  target: 'node20',
-});
+const { version } = JSON.parse(readFileSync('./package.json', 'utf8')) as { version: string };
+
+export default defineConfig([
+  {
+    entry: ['src/index.ts'],
+    format: ['esm', 'cjs'],
+    dts: true,
+    clean: true,
+    sourcemap: true,
+    target: 'node20',
+  },
+  {
+    entry: ['src/bin.ts'],
+    format: ['esm'],
+    target: 'node20',
+    banner: { js: '#!/usr/bin/env node' },
+    define: { __SURUM__: JSON.stringify(version) },
+  },
+]);

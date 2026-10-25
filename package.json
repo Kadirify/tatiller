@@ -19,6 +19,9 @@
       }
     }
   },
+  "bin": {
+    "tatiller": "./dist/bin.js"
+  },
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
