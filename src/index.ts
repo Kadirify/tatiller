@@ -21,6 +21,8 @@ export {
   sonrakiIsGunu,
 } from './isgunu';
 export type { AyOzeti, IsGunuSecenekleri } from './isgunu';
+export { kopruler } from './kopru';
+export type { Kopru, KopruSecenekleri } from './kopru';
 export { ics } from './ics';
 export type { IcsSecenekleri } from './ics';
 export { gunHali, haftaninGunu, bugun } from './tarih';

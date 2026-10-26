@@ -1,5 +1,6 @@
 import { ayOzeti, isGunuEkle, isGunuMu, isGunuSay, type IsGunuSecenekleri } from './isgunu';
 import { ics } from './ics';
+import { kopruler } from './kopru';
 import { gunBilgisi, sonrakiTatil, tatiller } from './tatiller';
 import { AYLAR, GUNLER, bugun, gunHali, gunNo, haftaninGunu, yilOf } from './tarih';
 import type { Tatil } from './tipler';
@@ -29,6 +30,7 @@ Kullanım:
   tatiller isgunu <tarih> <n>      tarihten n iş günü sonrası (negatifse öncesi)
   tatiller say <tarih> <tarih>     iki tarih arası iş günü sayısı
   tatiller ay <yıl> <ay>           ayın iş günü özeti
+  tatiller kopru [yıl] [izin]      az izinle uzun tatil fırsatları (varsayılan 2 gün izin)
   tatiller ics [yıl...]            takvim dosyası (.ics) üretir
 
 Seçenekler:
@@ -132,6 +134,32 @@ function bugunNe(tarih: string, b: Bayraklar): string {
   return parca.join(' · ');
 }
 
+function gunAy(t: string): string {
+  const [, a, g] = t.split('-').map(Number) as [number, number, number];
+  return `${g} ${AYLAR[a - 1]}`;
+}
+
+function kisaAralik(a: string, b: string): string {
+  const [, aa, ag] = a.split('-').map(Number) as [number, number, number];
+  const [, ba, bg] = b.split('-').map(Number) as [number, number, number];
+  return aa === ba ? `${ag}-${bg} ${AYLAR[aa - 1]}` : `${gunAy(a)} - ${gunAy(b)}`;
+}
+
+function kopruCiktisi(yil: number, enFazlaIzin: number, b: Bayraklar): string {
+  const liste = kopruler(yil, { ...secenekler(b), enFazlaIzin });
+  if (b.json) return JSON.stringify(liste, null, 2);
+  if (!liste.length) return `${yil} yılında en fazla ${enFazlaIzin} gün izinle köprü fırsatı yok.`;
+  const satirlar = [`${yil} köprü fırsatları (en fazla ${enFazlaIzin} gün izin)`, ''];
+  for (const k of liste) {
+    const izin = String(k.izin).replace('.', ',');
+    satirlar.push(
+      `  ${izin} gün izin, ${k.toplamGun} gün tatil  ${kisaAralik(k.baslangic, k.bitis).padEnd(20)} ${k.tatiller.join(', ')}`,
+      `    izin günleri: ${k.izinGunleri.map(gunAy).join(', ')}`,
+    );
+  }
+  return satirlar.join('\n');
+}
+
 function ayCiktisi(yil: number, ay: number, b: Bayraklar): string {
   const o = ayOzeti(yil, ay, secenekler(b));
   if (b.json) return JSON.stringify(o, null, 2);
@@ -209,6 +237,12 @@ export function calistir(argv: readonly string[]): CliSonucu {
       }
       case 'ay':
         return { cikti: ayCiktisi(sayiArgumani(arg[0], 'Yıl'), sayiArgumani(arg[1], 'Ay'), b), kod: 0 };
+      case 'kopru':
+      case 'köprü': {
+        const yil = arg[0] ? sayiArgumani(arg[0], 'Yıl') : yilOf(bugun());
+        const izin = arg[1] ? Number(arg[1].replace(',', '.')) : 2;
+        return { cikti: kopruCiktisi(yil, izin, b), kod: 0 };
+      }
       case 'ics': {
         const yillar = arg.length ? arg.map((y) => sayiArgumani(y, 'Yıl')) : [yilOf(bugun())];
         return { cikti: ics(yillar, { idariIzin: b.idari, tahmini: b.tahmini, dil: b.en ? 'en' : 'tr' }), kod: 0 };

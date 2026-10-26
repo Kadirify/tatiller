@@ -39,6 +39,12 @@ describe('cli', () => {
     expect(calistir(['ay', '2026', '3']).cikti).toContain('İş günü       20.5 (20 tam + 1 yarım)');
   });
 
+  it('köprü günleri', () => {
+    const c = calistir(['kopru', '2026']).cikti;
+    expect(c).toContain('1,5 gün izin, 9 gün tatil  23-31 Mayıs');
+    expect(c).toContain('izin günleri: 25 Mayıs, 26 Mayıs');
+  });
+
   it('ics çıktısı', () => {
     expect(calistir(['ics', '2026']).cikti).toMatch(/^BEGIN:VCALENDAR\r\n/);
   });

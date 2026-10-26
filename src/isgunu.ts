@@ -19,7 +19,8 @@ export interface IsGunuSecenekleri extends TatilSecenekleri {
   ekIsGunleri?: readonly TarihGirdisi[];
 }
 
-interface Kurallar {
+/** @internal */
+export interface Kurallar {
   haftaSonu: ReadonlySet<number>;
   yarimTatil: boolean;
   ek: ReadonlySet<string>;
@@ -27,7 +28,8 @@ interface Kurallar {
   tatil: TatilSecenekleri;
 }
 
-function hazirla(s: IsGunuSecenekleri): Kurallar {
+/** @internal */
+export function hazirla(s: IsGunuSecenekleri): Kurallar {
   const haftaSonu = s.haftaSonu ?? [6, 0];
   for (const g of haftaSonu) {
     if (!Number.isInteger(g) || g < 0 || g > 6) {
@@ -43,8 +45,8 @@ function hazirla(s: IsGunuSecenekleri): Kurallar {
   };
 }
 
-/** Günün ne kadarı çalışılıyor: 1, 0.5 ya da 0. */
-function calismaOrani(tarih: string, k: Kurallar): 0 | 0.5 | 1 {
+/** Günün ne kadarı çalışılıyor: 1, 0.5 ya da 0. @internal */
+export function calismaOrani(tarih: string, k: Kurallar): 0 | 0.5 | 1 {
   if (k.ekIs.has(tarih)) return 1;
   if (k.ek.has(tarih)) return 0;
   if (k.haftaSonu.has(haftaninGunu(tarih))) return 0;
