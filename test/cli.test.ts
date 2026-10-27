@@ -42,6 +42,7 @@ describe('cli', () => {
   it('köprü günleri', () => {
     const c = calistir(['kopru', '2026']).cikti;
     expect(c).toContain('1,5 gün izin, 9 gün tatil  23-31 Mayıs');
+    expect(c).toContain('1 gün izin, 4 gün tatil    1-4 Ocak');
     expect(c).toContain('izin günleri: 25 Mayıs, 26 Mayıs');
   });
 

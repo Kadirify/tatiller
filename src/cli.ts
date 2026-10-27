@@ -150,13 +150,14 @@ function kopruCiktisi(yil: number, enFazlaIzin: number, b: Bayraklar): string {
   if (b.json) return JSON.stringify(liste, null, 2);
   if (!liste.length) return `${yil} yılında en fazla ${enFazlaIzin} gün izinle köprü fırsatı yok.`;
   const satirlar = [`${yil} köprü fırsatları (en fazla ${enFazlaIzin} gün izin)`, ''];
-  for (const k of liste) {
-    const izin = String(k.izin).replace('.', ',');
+  const basliklar = liste.map((k) => `${String(k.izin).replace('.', ',')} gün izin, ${k.toplamGun} gün tatil`);
+  const genislik = Math.max(...basliklar.map((s) => s.length));
+  liste.forEach((k, i) => {
     satirlar.push(
-      `  ${izin} gün izin, ${k.toplamGun} gün tatil  ${kisaAralik(k.baslangic, k.bitis).padEnd(20)} ${k.tatiller.join(', ')}`,
+      `  ${basliklar[i]!.padEnd(genislik)}  ${kisaAralik(k.baslangic, k.bitis).padEnd(20)} ${k.tatiller.join(', ')}`,
       `    izin günleri: ${k.izinGunleri.map(gunAy).join(', ')}`,
     );
-  }
+  });
   return satirlar.join('\n');
 }
 
