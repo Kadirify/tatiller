@@ -20,6 +20,8 @@ hesapla değil Diyanet'in takvimiyle belli oluyor. Arifeler yarım gün. 23 Nisa
 bazen iki tatil aynı güne düşüyor. 2033'te iki tane Ramazan Bayramı var. Kamuya ayrıca
 idari izin veriliyor ama özel sektöre verilmiyor. Bu paket bunların hepsini doğru yapmak için var.
 
+[English](README.en.md)
+
 ## Kurulum
 
 ```
