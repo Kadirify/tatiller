@@ -90,4 +90,8 @@ eklemiyorum.
 | 2025-04-03 | Tam | Ramazan Bayramı |
 | 2025-04-04 | Tam | Ramazan Bayramı |
 
+İdari izin verilmeyen bayramlar (soruluyor diye not ediyorum):
+
+- 2025 Kurban Bayramı: sadece 5 Haziran öğleden sonrası (zaten arife), ek gün verilmedi.
+
 Yeni karar eklerken PR açıklamasına kaynak linklerini koyun.
