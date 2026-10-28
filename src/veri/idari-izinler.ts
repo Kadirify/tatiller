@@ -23,4 +23,8 @@ export const IDARI_IZINLER: readonly IdariIzin[] = [
   // 2024 Kurban Bayramı: bayram sonrası iki gün, 9 günlük tatil
   { tarih: '2024-06-20', yarimGun: false, neden: 'kurban' },
   { tarih: '2024-06-21', yarimGun: false, neden: 'kurban' },
+  // 2025 Ramazan Bayramı: bayram sonrası üç gün, 9 günlük tatil
+  { tarih: '2025-04-02', yarimGun: false, neden: 'ramazan' },
+  { tarih: '2025-04-03', yarimGun: false, neden: 'ramazan' },
+  { tarih: '2025-04-04', yarimGun: false, neden: 'ramazan' },
 ];

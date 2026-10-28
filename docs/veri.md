@@ -86,5 +86,8 @@ eklemiyorum.
 | 2024-04-09 | Sabah | Ramazan Bayramı (öğleden sonrası zaten arife) |
 | 2024-06-20 | Tam | Kurban Bayramı |
 | 2024-06-21 | Tam | Kurban Bayramı |
+| 2025-04-02 | Tam | Ramazan Bayramı |
+| 2025-04-03 | Tam | Ramazan Bayramı |
+| 2025-04-04 | Tam | Ramazan Bayramı |
 
 Yeni karar eklerken PR açıklamasına kaynak linklerini koyun.

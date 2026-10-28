@@ -38,6 +38,14 @@ describe('isGunuMu', () => {
   it('idari izin sadece istenirse', () => {
     expect(isGunuMu('2024-04-08')).toBe(true);
     expect(isGunuMu('2024-04-08', { idariIzin: true })).toBe(false);
+    expect(isGunuMu('2025-04-02')).toBe(true);
+    expect(isGunuMu('2025-04-02', { idariIzin: true })).toBe(false);
+  });
+
+  it('2025 Ramazan Bayramı kamuda 9 gün', () => {
+    // 29 Mart Cumartesi arife, 30 Mart - 1 Nisan bayram, 2-4 Nisan idari izin
+    expect(sonrakiIsGunu('2025-03-28', { idariIzin: true })).toBe('2025-04-07');
+    expect(sonrakiIsGunu('2025-03-28')).toBe('2025-04-02');
   });
 
   it('geçersiz hafta sonu tanımını reddediyor', () => {
