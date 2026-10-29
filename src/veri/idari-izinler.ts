@@ -27,4 +27,7 @@ export const IDARI_IZINLER: readonly IdariIzin[] = [
   { tarih: '2025-04-02', yarimGun: false, neden: 'ramazan' },
   { tarih: '2025-04-03', yarimGun: false, neden: 'ramazan' },
   { tarih: '2025-04-04', yarimGun: false, neden: 'ramazan' },
+  // 2026 Kurban Bayramı: Cumhurbaşkanlığı Genel Sekreterliği genelgesi, 9 günlük tatil
+  { tarih: '2026-05-25', yarimGun: false, neden: 'kurban' },
+  { tarih: '2026-05-26', yarimGun: 'ogleden-once', neden: 'kurban' },
 ];

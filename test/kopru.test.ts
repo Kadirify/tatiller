@@ -37,6 +37,11 @@ describe('kopruler', () => {
     expect(kamu.every((k) => !k.izinGunleri.includes('2024-04-08'))).toBe(true);
   });
 
+  it('2026 Kurban Bayramı kamuda köprüye gerek kalmadan 9 gün', () => {
+    const kamu = kopruler(2026, { idariIzin: true }).filter((k) => k.tatiller.includes('Kurban Bayramı'));
+    expect(kamu.some((k) => k.izinGunleri.includes('2026-05-25'))).toBe(false);
+  });
+
   it('desteklenen son yılda komşu yıl yüzünden hata vermiyor', () => {
     expect(() => kopruler(2035)).not.toThrow();
   });
