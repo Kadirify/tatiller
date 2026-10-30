@@ -2,7 +2,6 @@
 
 [![npm](https://img.shields.io/npm/v/tatiller)](https://www.npmjs.com/package/tatiller)
 [![CI](https://github.com/Kadirify/tatiller/actions/workflows/ci.yml/badge.svg)](https://github.com/Kadirify/tatiller/actions/workflows/ci.yml)
-![bağımlılık yok](https://img.shields.io/badge/ba%C4%9F%C4%B1ml%C4%B1l%C4%B1k-yok-brightgreen)
 [![lisans](https://img.shields.io/badge/lisans-MIT-blue)](LICENSE)
 
 Türkiye resmi tatilleri, Ramazan ve Kurban bayramları, iş günü hesabı ve köprü günleri.
@@ -19,7 +18,7 @@ kopruler(2027)[3];                 // 2 gün izinle 9 gün Kurban Bayramı tatil
 Türkiye'de tatil hesabı göründüğünden zor. Bayramlar her yıl 11 gün kayıyor ve tarihleri
 hesapla değil Diyanet'in takvimiyle belli oluyor. Arifeler yarım gün. 23 Nisan 2023 gibi
 bazen iki tatil aynı güne düşüyor. 2033'te iki tane Ramazan Bayramı var. Kamuya ayrıca
-idari izin veriliyor ama özel sektöre verilmiyor. Bu paket bunların hepsini doğru yapmak için var.
+idari izin veriliyor ama özel sektöre verilmiyor.
 
 [English](README.en.md)
 
@@ -29,20 +28,7 @@ idari izin veriliyor ama özel sektöre verilmiyor. Bu paket bunların hepsini d
 npm install tatiller
 ```
 
-Node 20 ve üstü, tarayıcı, Deno, Bun. ESM ve CommonJS ikisi de çalışıyor.
-
-## İçindekiler
-
-- [npm kurmadan: JSON, CSV, takvim aboneliği](#npm-kurmadan)
-- [Tatil listesi](#tatil-listesi)
-- [Bir gün hakkında](#bir-gün-hakkında)
-- [İş günü hesabı](#i̇ş-günü-hesabı)
-- [Ay özeti (bordro, puantaj)](#ay-özeti)
-- [Köprü günleri](#köprü-günleri)
-- [Takvime aktarma (.ics)](#takvime-aktarma)
-- [Komut satırı](#komut-satırı)
-- [Veri ve doğruluk](#veri-ve-doğruluk)
-- [Sık sorulanlar](#sık-sorulanlar)
+Node 20 ve üstü. ESM ve CommonJS ikisi de çalışıyor.
 
 ## npm kurmadan
 
@@ -80,20 +66,6 @@ const { tatiller } = await fetch('https://cdn.jsdelivr.net/gh/Kadirify/tatiller@
 curl -s https://raw.githubusercontent.com/Kadirify/tatiller/json/bugun.json | jq '.isGunu'
 ```
 
-**Python:**
-
-```python
-import requests
-yil = requests.get("https://raw.githubusercontent.com/Kadirify/tatiller/json/2026.json").json()
-tarihler = {t["tarih"] for t in yil["tatiller"] if not t["yarimGun"]}
-```
-
-**PHP:**
-
-```php
-$yil = json_decode(file_get_contents('https://raw.githubusercontent.com/Kadirify/tatiller/json/2026.json'), true);
-```
-
 **Google Sheets:** boş bir hücreye yazın, tablo kendini doldurur:
 
 ```
@@ -108,8 +80,7 @@ her yıl kendiliğinden güncellenir.
 - iPhone: Ayarlar, Takvim, Hesaplar, Hesap Ekle, Diğer, Abone Olunan Takvim Ekle. Aynı adres.
 - Outlook: Takvim ekle, Web'den abone ol. Aynı adres.
 
-**`bugun.json`** Slack botu, Telegram botu, iPhone Kestirmeler, ev otomasyonu gibi yerlerde
-"bugün tatil mi" sorusu için:
+**`bugun.json`** bir bottan ya da kısayoldan "bugün tatil mi" diye sormak için:
 
 ```json
 {
@@ -218,7 +189,6 @@ isGunuEkle('2026-03-18', 5, {
 });
 ```
 
-Kargo teslim tarihi, iade süresi, SLA, ihale süreleri, vade hesabı gibi işler için yeterli.
 Hukuki süre hesabında (tebligat, itiraz süresi) son günün tatile denk gelmesi gibi özel
 kurallar var, onları kendi kodunuzda ele almanız gerekir.
 
@@ -307,7 +277,8 @@ Ayrıntı için `npx tatiller --help`.
 ## Veri ve doğruluk
 
 **Sabit tatiller** 2429 sayılı Ulusal Bayram ve Genel Tatiller Hakkında Kanun'a göre.
-1 Mayıs 2009'dan, 15 Temmuz 2017'den itibaren listeye giriyor.
+1 Mayıs 2009'dan, 15 Temmuz 2017'den itibaren listeye giriyor. Hafta sonuna denk gelen tatil
+başka güne kaymıyor, o yıl yanmış oluyor.
 
 **Bayram tarihleri** 2010-2035 arası Diyanet İşleri Başkanlığı'nın yayımladığı dini günler
 listesinden. Tarihleri hesapla bulmuyoruz, çünkü Türkiye'nin kullandığı takvim kriteri ile
@@ -320,29 +291,11 @@ veriyor; `{ tahmini: true }` verirseniz bayramlar tablosal hicri takvimle hesapl
 
 **İdari izinler** kanunla değil, her seferinde Cumhurbaşkanlığı kararıyla veriliyor ve sadece
 kamu çalışanlarını bağlıyor. Varsayılan olarak hesaba katılmıyor, `{ idariIzin: true }` ile
-açılıyor. Yalnızca en az iki kaynaktan doğrulayabildiklerim listede, 2024'ten itibaren.
+açılıyor. Haberlerdeki "9 günlük bayram tatili" bu yüzden ancak bu seçenekle çıkıyor.
+Yalnızca en az iki kaynaktan doğrulayabildiklerim listede, 2024'ten itibaren. Kaçırdığım bir
+karar görürseniz kaynağıyla issue açın.
 
 Kaynakların tamamı ve veriyi güncelleme adımları: [docs/veri.md](docs/veri.md)
-
-## Sık sorulanlar
-
-**Hafta sonuna denk gelen tatil Pazartesi'ye kayıyor mu?**
-Hayır. Türkiye'de kayma yok, hafta sonuna düşen tatil o yıl yanmış oluyor.
-
-**Arife tatil mi?**
-Arifeler ve 28 Ekim saat 13.00'ten itibaren tatil. `tatilMi` bu günler için `true` döner,
-`isGunuMu` ise sabahı çalışıldığı için varsayılan olarak `true` döner. Arifeyi tamamen tatil
-saymak isterseniz `{ yarimGun: 'tatil' }`.
-
-**"9 günlük bayram tatili" neden çıkmıyor?**
-O ekstra günler idari izin, sadece kamu için. `{ idariIzin: true }` ile görürsünüz.
-
-**Dini günler (kandiller, Aşure) var mı?**
-Hayır, bu paket sadece tatil olan günlerle ilgileniyor.
-
-**Veri ne zaman güncellenir?**
-Bayram tarihleri 2035'e kadar sabit, değişmez. Yeni idari izin kararları çıktıkça eklenir.
-Kaçırdığım bir karar görürseniz kaynağıyla issue açın.
 
 ## Katkı
 
