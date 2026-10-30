@@ -1,7 +1,7 @@
 # tatiller
 
 Public holidays in Türkiye, Ramadan and Sacrifice feasts, business day math and bridge days.
-Based on official Diyanet data, zero dependencies, fully typed.
+Eid dates come from Diyanet. No dependencies.
 
 [Türkçe](README.md)
 
@@ -10,23 +10,16 @@ import { tatiller, isGunuEkle, kopruler } from 'tatiller';
 
 tatiller(2026);                // all holidays of 2026
 isGunuEkle('2026-03-18', 5);   // '2026-03-26', skips Eid and the weekend
-kopruler(2027);                // take 2 days off, get 9 days of Eid al-Adha
+kopruler(2027)[3];             // take 2 days off, get 9 days of Eid al-Adha
 ```
 
-The API is in Turkish, because the people who need this the most are Turkish developers.
-Every holiday object has an English name (`adEn`) and the CLI and `.ics` export accept `--en` / `dil: 'en'`.
+The API is in Turkish. Every holiday object has an English name (`adEn`) and the CLI and `.ics` export accept `--en` / `dil: 'en'`.
 
 ## Why
 
-Turkish holidays are trickier than they look:
-
-- Eid dates move about 11 days every year and come from the Diyanet calendar, which
-  sometimes differs by a day from generic Hijri converters.
-- Holiday eves (arife) and 28 October are half days, off from 13:00.
-- Two holidays can fall on the same day (23 April 2023 was also the third day of Eid al-Fitr).
-- 2033 has two Eid al-Fitr holidays.
-- The government often adds "administrative leave" days for public employees only.
-- Holidays on weekends are not moved to Monday.
+Eid dates move every year and come from the Diyanet calendar, which sometimes differs by a
+day from generic Hijri converters. Holiday eves are half days, and holidays on weekends are
+not moved to Monday.
 
 ## Install
 
