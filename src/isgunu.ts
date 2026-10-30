@@ -143,7 +143,6 @@ export interface AyOzeti {
   yil: number;
   ay: number;
   takvimGunu: number;
-  /** Tam çalışılan gün sayısı. */
   tamIsGunu: number;
   /** Yarım çalışılan gün sayısı (arifeler, 28 Ekim). */
   yarimIsGunu: number;
@@ -154,12 +153,7 @@ export interface AyOzeti {
   haftaSonu: number;
 }
 
-/**
- * Bir ayın çalışma özeti. Bordro, puantaj, SLA hesapları için.
- *
- * @example
- * ayOzeti(2026, 3).isGunu // 19.5
- */
+/** Bir ayın çalışma özeti, bordro ve puantaj için. */
 export function ayOzeti(yil: number, ay: number, secenekler: IsGunuSecenekleri = {}): AyOzeti {
   if (!Number.isInteger(ay) || ay < 1 || ay > 12) throw new RangeError(`Ay 1-12 arasında olmalı, gelen: ${ay}`);
   const k = hazirla(secenekler);

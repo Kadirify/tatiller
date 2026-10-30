@@ -169,12 +169,7 @@ export function yilinTatilleri(yil: number, s: TatilSecenekleri): readonly Tatil
   return sonuc;
 }
 
-/**
- * Bir yılın bütün tatilleri, tarihe göre sıralı.
- *
- * @example
- * tatiller(2026).filter(t => !t.yarimGun).length // tam gün tatil sayısı
- */
+/** Bir yılın bütün tatilleri, tarihe göre sıralı. */
 export function tatiller(yil: number, secenekler: TatilSecenekleri = {}): Tatil[] {
   return [...yilinTatilleri(yil, secenekler)];
 }

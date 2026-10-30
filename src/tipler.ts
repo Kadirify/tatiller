@@ -33,9 +33,7 @@ export interface Bayram {
   adEn: string;
   /** Arife günü, öğleden sonra tatil. */
   arife: string;
-  /** Bayramın ilk günü. */
   baslangic: string;
-  /** Bayramın son günü. */
   bitis: string;
   /** İlk günden son güne bütün bayram günleri (arife hariç). */
   gunler: string[];

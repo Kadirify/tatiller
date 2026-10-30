@@ -16,17 +16,13 @@ export interface KopruSecenekleri extends IsGunuSecenekleri {
 }
 
 export interface Kopru {
-  /** İzin alınması gereken günler. */
   izinGunleri: string[];
   /** Gün cinsinden toplam izin (arife yarım gün = 0,5). */
   izin: number;
-  /** Ortaya çıkan tatilin ilk günü. */
   baslangic: string;
-  /** Ortaya çıkan tatilin son günü. */
   bitis: string;
   /** Hafta sonları dahil toplam tatil günü. */
   toplamGun: number;
-  /** Bu aralıktaki tatillerin adları. */
   tatiller: string[];
 }
 
@@ -41,9 +37,6 @@ function tabanAd(ad: string): string {
 
 /**
  * Yılın köprü fırsatları, tarihe göre sıralı.
- *
- * @example
- * kopruler(2026).map(k => `${k.izin} gün izinle ${k.toplamGun} gün tatil`)
  */
 export function kopruler(yil: number, secenekler: KopruSecenekleri = {}): Kopru[] {
   const enFazla = secenekler.enFazlaIzin ?? 2;

@@ -162,7 +162,7 @@ export function dosyalar(tarih: string = bugun()): Map<string, string> {
   const buYil = yilOf(tarih);
   const abonelik: number[] = [];
   for (let y = buYil - 1; y <= buYil + 3; y++) if (y >= ilk && y <= son) abonelik.push(y);
-  sonuc.set('tatiller.ics', ics(abonelik, { olusturulma, idariIzin: false }));
+  sonuc.set('tatiller.ics', ics(abonelik, { olusturulma }));
   sonuc.set('tatiller-en.ics', ics(abonelik, { olusturulma, dil: 'en' }));
 
   sonuc.set('bugun.json', json(bugunDosyasi(tarih)));

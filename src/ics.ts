@@ -138,10 +138,6 @@ function etkinlikler(liste: readonly Tatil[], s: IcsSecenekleri): Etkinlik[] {
 
 /**
  * Tatilleri .ics takvim dosyası olarak üretir.
- *
- * @example
- * import { writeFileSync } from 'node:fs';
- * writeFileSync('tatiller.ics', ics([2026, 2027]));
  */
 export function ics(yillar: number | readonly number[], secenekler: IcsSecenekleri = {}): string {
   const liste = (Array.isArray(yillar) ? [...yillar] : [yillar as number])
