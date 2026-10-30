@@ -47,7 +47,7 @@
     }
   },
   "bin": {
-    "tatiller": "./dist/bin.js"
+    "tatiller": "dist/bin.js"
   },
   "files": [
     "dist",
