@@ -1,5 +1,6 @@
 # tatiller
 
+[![npm](https://img.shields.io/npm/v/tatiller)](https://www.npmjs.com/package/tatiller)
 [![CI](https://github.com/Kadirify/tatiller/actions/workflows/ci.yml/badge.svg)](https://github.com/Kadirify/tatiller/actions/workflows/ci.yml)
 ![bağımlılık yok](https://img.shields.io/badge/ba%C4%9F%C4%B1ml%C4%B1l%C4%B1k-yok-brightgreen)
 [![lisans](https://img.shields.io/badge/lisans-MIT-blue)](LICENSE)

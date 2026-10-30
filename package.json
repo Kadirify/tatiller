@@ -1,8 +1,35 @@
 {
   "name": "tatiller",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Türkiye resmi tatilleri, dini bayramlar ve iş günü hesabı. Bağımlılık yok.",
+  "version": "1.0.0",
+  "description": "Türkiye resmi tatilleri, Ramazan ve Kurban bayramları, iş günü hesabı ve köprü günleri. Diyanet verisi, bağımlılık yok.",
+  "keywords": [
+    "tatil",
+    "resmi tatil",
+    "bayram",
+    "ramazan bayramı",
+    "kurban bayramı",
+    "iş günü",
+    "is gunu",
+    "türkiye",
+    "turkey",
+    "turkish holidays",
+    "public holidays",
+    "business days",
+    "holiday",
+    "diyanet",
+    "köprü",
+    "ics"
+  ],
+  "homepage": "https://github.com/Kadirify/tatiller#readme",
+  "bugs": {
+    "url": "https://github.com/Kadirify/tatiller/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kadirify/tatiller.git"
+  },
+  "license": "MIT",
+  "author": "Kadir",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -22,18 +49,21 @@
   "bin": {
     "tatiller": "./dist/bin.js"
   },
+  "files": [
+    "dist",
+    "README.en.md"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
   },
   "engines": {
     "node": ">=20"
   },
-  "license": "MIT",
-  "author": "Kadir",
   "devDependencies": {
     "@types/node": "^26.6.6",
     "tsup": "^9.0.0",
