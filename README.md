@@ -33,6 +33,7 @@ Node 20 ve üstü, tarayıcı, Deno, Bun. ESM ve CommonJS ikisi de çalışıyor
 
 ## İçindekiler
 
+- [npm kurmadan: JSON, CSV, takvim aboneliği](#npm-kurmadan)
 - [Tatil listesi](#tatil-listesi)
 - [Bir gün hakkında](#bir-gün-hakkında)
 - [İş günü hesabı](#i̇ş-günü-hesabı)
@@ -42,6 +43,86 @@ Node 20 ve üstü, tarayıcı, Deno, Bun. ESM ve CommonJS ikisi de çalışıyor
 - [Komut satırı](#komut-satırı)
 - [Veri ve doğruluk](#veri-ve-doğruluk)
 - [Sık sorulanlar](#sık-sorulanlar)
+
+## npm kurmadan
+
+Bütün veri her gece otomatik üretilip bu reponun [`json` dalına](https://github.com/Kadirify/tatiller/tree/json)
+konuyor. Hangi dilde yazarsanız yazın, kurulum yapmadan bir adresten okuyabilirsiniz.
+
+```
+https://raw.githubusercontent.com/Kadirify/tatiller/json/2026.json
+https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json/2026.json
+```
+
+İkisi de aynı dosya. jsDelivr daha hızlı ve doğru `Content-Type` dönüyor, raw adresi push'tan
+birkaç dakika sonra güncelleniyor. İkisinde de CORS açık, tarayıcıdan doğrudan `fetch` edilebilir.
+
+| Dosya | İçerik |
+|---|---|
+| `bugun.json` | Bugün tatil mi, iş günü mü, sıradaki tatile kaç gün var. Her gece 00.05'te yenilenir |
+| `2026.json` | Yılın tatilleri, idari izinler, bayramlar, 12 ayın iş günü özeti, köprü günleri |
+| `2026.csv` | Yılın tatilleri, tablo olarak |
+| `2026.ics` | Yılın takvim dosyası |
+| `tatiller.json` | 2010-2035 arası bütün resmi tatiller tek listede |
+| `tatiller.ics` | Takvim aboneliği: geçen yıl, bu yıl, sonraki üç yıl. Yıl dönünce kendiliğinden kayar |
+| `tatiller-en.ics` | Aynısı, İngilizce adlarla |
+| `index.json` | Dosya listesi, sürüm, kaynaklar |
+
+**Tarayıcı ya da Node:**
+
+```js
+const { tatiller } = await fetch('https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json/2026.json').then((r) => r.json());
+```
+
+**Terminal:**
+
+```
+curl -s https://raw.githubusercontent.com/Kadirify/tatiller/json/bugun.json | jq '.isGunu'
+```
+
+**Python:**
+
+```python
+import requests
+yil = requests.get("https://raw.githubusercontent.com/Kadirify/tatiller/json/2026.json").json()
+tarihler = {t["tarih"] for t in yil["tatiller"] if not t["yarimGun"]}
+```
+
+**PHP:**
+
+```php
+$yil = json_decode(file_get_contents('https://raw.githubusercontent.com/Kadirify/tatiller/json/2026.json'), true);
+```
+
+**Google Sheets:** boş bir hücreye yazın, tablo kendini doldurur:
+
+```
+=IMPORTDATA("https://raw.githubusercontent.com/Kadirify/tatiller/json/2026.csv")
+```
+
+**Takvime abone olmak:** tatiller telefonunuzun ya da Google Takvim'in içinde görünür ve
+her yıl kendiliğinden güncellenir.
+
+- Google Takvim: Diğer takvimler, `+`, URL ile. Adres:
+  `https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json/tatiller.ics`
+- iPhone: Ayarlar, Takvim, Hesaplar, Hesap Ekle, Diğer, Abone Olunan Takvim Ekle. Aynı adres.
+- Outlook: Takvim ekle, Web'den abone ol. Aynı adres.
+
+**`bugun.json`** Slack botu, Telegram botu, iPhone Kestirmeler, ev otomasyonu gibi yerlerde
+"bugün tatil mi" sorusu için:
+
+```json
+{
+  "tarih": "2026-05-26",
+  "gunAdi": "Salı",
+  "tatil": "yarim",
+  "isGunu": true,
+  "kamu": { "tatil": "tam", "isGunu": false },
+  "sonrakiTatil": { "tarih": "2026-05-27", "ad": "Kurban Bayramı 1. Gün", "kalanGun": 1 }
+}
+```
+
+`kamu` alanı idari izinleri de hesaba katıyor.
 
 ## Tatil listesi
 

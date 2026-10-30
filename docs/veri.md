@@ -98,3 +98,19 @@ eklemiyorum.
 - 2026 Ramazan Bayramı: 9 güne uzatılacağı konuşuldu ama karar çıkmadı.
 
 Yeni karar eklerken PR açıklamasına kaynak linklerini koyun.
+
+## Otomatik yayın (json dalı)
+
+[`.github/workflows/json.yml`](../.github/workflows/json.yml) her push'ta ve her gece 00.05'te
+(İstanbul) [`scripts/json-uret.ts`](../scripts/json-uret.ts) betiğini çalıştırıp çıktıyı `json`
+dalına koyuyor. Dal her seferinde tek commit olarak yeniden yazılıyor, geçmiş tutulmuyor;
+dosyalar zaten koddan üretildiği için gerek yok.
+
+Yerelde aynı çıktıyı görmek için:
+
+```
+npm run json -- json-cikti
+```
+
+GitHub, 60 gün boyunca hiç commit gelmeyen herkese açık repolarda zamanlanmış iş akışlarını
+kapatıyor. Böyle olursa Actions sekmesinden "JSON" iş akışını yeniden etkinleştirmek yeterli.

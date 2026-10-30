@@ -12,3 +12,4 @@
 - Kamu idari izinleri (2024-2026), `{ idariIzin: true }` ile
 - 2035 sonrası için tahmini bayram tarihleri, `{ tahmini: true }` ile
 - Komut satırı aracı: `npx tatiller`
+- npm kurmadan kullanım: her gece güncellenen JSON, CSV ve takvim aboneliği dosyaları (`json` dalı)

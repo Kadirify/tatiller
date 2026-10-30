@@ -1,0 +1,54 @@
+name: JSON
+
+# json dalını üretir: yıllık json/csv/ics dosyaları ve her gün değişen bugun.json.
+# Ana daldaki geçmişi kirletmemek için json dalı her seferinde tek commit olarak yeniden yazılıyor.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Her gün 00.05 (İstanbul, UTC+3)
+    - cron: '5 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: json
+  cancel-in-progress: true
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+
+      - name: Dosyaları üret
+        run: npm run json -- cikti
+
+      - name: json dalına gönder
+        working-directory: cikti
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q -b json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "veri $(TZ=Europe/Istanbul date +%Y-%m-%d)"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" json
+
+      - name: jsDelivr önbelleğini temizle
+        # jsDelivr dalları 12 saate kadar önbellekte tutuyor; bugun.json bayatlamasın
+        continue-on-error: true
+        run: |
+          for f in bugun.json index.json tatiller.ics tatiller-en.ics; do
+            curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@json/$f" > /dev/null
+          done

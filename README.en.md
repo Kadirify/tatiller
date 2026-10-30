@@ -67,6 +67,17 @@ Business day functions accept these options:
 }
 ```
 
+## Without npm
+
+All data is regenerated every night and published to the [`json` branch](https://github.com/Kadirify/tatiller/tree/json):
+
+```
+https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json/2026.json     # one year, with monthly business days and bridge days
+https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json/bugun.json    # today: holiday? business day? next holiday?
+https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json/2026.csv      # =IMPORTDATA(...) in Google Sheets
+https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json/tatiller-en.ics  # subscribe in Google Calendar / iPhone / Outlook
+```
+
 ## CLI
 
 ```
