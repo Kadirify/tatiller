@@ -1,0 +1,382 @@
+{
+  "yil": 2010,
+  "guncelleme": "2026-10-31",
+  "tatiller": [
+    {
+      "tarih": "2010-01-01",
+      "kod": "yilbasi",
+      "ad": "Yılbaşı",
+      "adEn": "New Year's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2010-04-23",
+      "kod": "ulusal-egemenlik",
+      "ad": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "adEn": "National Sovereignty and Children's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2010-05-01",
+      "kod": "emek-ve-dayanisma",
+      "ad": "Emek ve Dayanışma Günü",
+      "adEn": "Labour and Solidarity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cumartesi"
+    },
+    {
+      "tarih": "2010-05-19",
+      "kod": "genclik-ve-spor",
+      "ad": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "adEn": "Commemoration of Atatürk, Youth and Sports Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2010-08-30",
+      "kod": "zafer",
+      "ad": "Zafer Bayramı",
+      "adEn": "Victory Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2010-09-08",
+      "kod": "ramazan-bayrami-arife",
+      "ad": "Ramazan Bayramı Arifesi",
+      "adEn": "Eid al-Fitr Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2010-09-09",
+      "kod": "ramazan-bayrami-1",
+      "ad": "Ramazan Bayramı 1. Gün",
+      "adEn": "Eid al-Fitr (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2010-09-10",
+      "kod": "ramazan-bayrami-2",
+      "ad": "Ramazan Bayramı 2. Gün",
+      "adEn": "Eid al-Fitr (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2010-09-11",
+      "kod": "ramazan-bayrami-3",
+      "ad": "Ramazan Bayramı 3. Gün",
+      "adEn": "Eid al-Fitr (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cumartesi"
+    },
+    {
+      "tarih": "2010-10-28",
+      "kod": "cumhuriyet-arife",
+      "ad": "Cumhuriyet Bayramı Arifesi",
+      "adEn": "Republic Day Eve",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2010-10-29",
+      "kod": "cumhuriyet",
+      "ad": "Cumhuriyet Bayramı",
+      "adEn": "Republic Day",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2010-11-15",
+      "kod": "kurban-bayrami-arife",
+      "ad": "Kurban Bayramı Arifesi",
+      "adEn": "Eid al-Adha Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2010-11-16",
+      "kod": "kurban-bayrami-1",
+      "ad": "Kurban Bayramı 1. Gün",
+      "adEn": "Eid al-Adha (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2010-11-17",
+      "kod": "kurban-bayrami-2",
+      "ad": "Kurban Bayramı 2. Gün",
+      "adEn": "Eid al-Adha (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2010-11-18",
+      "kod": "kurban-bayrami-3",
+      "ad": "Kurban Bayramı 3. Gün",
+      "adEn": "Eid al-Adha (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2010-11-19",
+      "kod": "kurban-bayrami-4",
+      "ad": "Kurban Bayramı 4. Gün",
+      "adEn": "Eid al-Adha (Day 4)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    }
+  ],
+  "idariIzinler": [],
+  "bayramlar": [
+    {
+      "tur": "ramazan",
+      "ad": "Ramazan Bayramı",
+      "adEn": "Eid al-Fitr",
+      "arife": "2010-09-08",
+      "baslangic": "2010-09-09",
+      "bitis": "2010-09-11",
+      "gunler": [
+        "2010-09-09",
+        "2010-09-10",
+        "2010-09-11"
+      ],
+      "tahmini": false
+    },
+    {
+      "tur": "kurban",
+      "ad": "Kurban Bayramı",
+      "adEn": "Eid al-Adha",
+      "arife": "2010-11-15",
+      "baslangic": "2010-11-16",
+      "bitis": "2010-11-19",
+      "gunler": [
+        "2010-11-16",
+        "2010-11-17",
+        "2010-11-18",
+        "2010-11-19"
+      ],
+      "tahmini": false
+    }
+  ],
+  "ozet": {
+    "tamGun": 13,
+    "yarimGun": 3,
+    "haftaIcineDenkGelen": 11,
+    "isGunu": 248.5
+  },
+  "aylar": [
+    {
+      "yil": 2010,
+      "ay": 1,
+      "takvimGunu": 31,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 1,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2010,
+      "ay": 2,
+      "takvimGunu": 28,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2010,
+      "ay": 3,
+      "takvimGunu": 31,
+      "tamIsGunu": 23,
+      "yarimIsGunu": 0,
+      "isGunu": 23,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2010,
+      "ay": 4,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2010,
+      "ay": 5,
+      "takvimGunu": 31,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 1,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2010,
+      "ay": 6,
+      "takvimGunu": 30,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2010,
+      "ay": 7,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2010,
+      "ay": 8,
+      "takvimGunu": 31,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2010,
+      "ay": 9,
+      "takvimGunu": 30,
+      "tamIsGunu": 19,
+      "yarimIsGunu": 1,
+      "isGunu": 19.5,
+      "tatil": 2,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2010,
+      "ay": 10,
+      "takvimGunu": 31,
+      "tamIsGunu": 19,
+      "yarimIsGunu": 1,
+      "isGunu": 19.5,
+      "tatil": 1,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2010,
+      "ay": 11,
+      "takvimGunu": 30,
+      "tamIsGunu": 17,
+      "yarimIsGunu": 1,
+      "isGunu": 17.5,
+      "tatil": 4,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2010,
+      "ay": 12,
+      "takvimGunu": 31,
+      "tamIsGunu": 23,
+      "yarimIsGunu": 0,
+      "isGunu": 23,
+      "tatil": 0,
+      "haftaSonu": 8
+    }
+  ],
+  "kopruler": [
+    {
+      "izinGunleri": [
+        "2010-05-17",
+        "2010-05-18"
+      ],
+      "izin": 2,
+      "baslangic": "2010-05-15",
+      "bitis": "2010-05-19",
+      "toplamGun": 5,
+      "tatiller": [
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2010-05-20",
+        "2010-05-21"
+      ],
+      "izin": 2,
+      "baslangic": "2010-05-19",
+      "bitis": "2010-05-23",
+      "toplamGun": 5,
+      "tatiller": [
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2010-11-15"
+      ],
+      "izin": 0.5,
+      "baslangic": "2010-11-13",
+      "bitis": "2010-11-21",
+      "toplamGun": 9,
+      "tatiller": [
+        "Kurban Bayramı"
+      ]
+    }
+  ]
+}

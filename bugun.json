@@ -1,0 +1,38 @@
+{
+  "tarih": "2026-10-31",
+  "gunAdi": "Cumartesi",
+  "haftaSonu": true,
+  "tatil": "yok",
+  "tatiller": [],
+  "isGunu": false,
+  "kamu": {
+    "tatil": "yok",
+    "isGunu": false,
+    "tatiller": []
+  },
+  "sonrakiTatil": {
+    "tarih": "2027-01-01",
+    "kod": "yilbasi",
+    "ad": "Yılbaşı",
+    "adEn": "New Year's Day",
+    "tur": "resmi",
+    "kategori": "genel",
+    "yarimGun": false,
+    "tahmini": false,
+    "gunAdi": "Cuma",
+    "kalanGun": 62
+  },
+  "sonrakiTamGunTatil": {
+    "tarih": "2027-01-01",
+    "kod": "yilbasi",
+    "ad": "Yılbaşı",
+    "adEn": "New Year's Day",
+    "tur": "resmi",
+    "kategori": "genel",
+    "yarimGun": false,
+    "tahmini": false,
+    "gunAdi": "Cuma",
+    "kalanGun": 62
+  },
+  "guncelleme": "2026-10-31"
+}

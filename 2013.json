@@ -1,0 +1,431 @@
+{
+  "yil": 2013,
+  "guncelleme": "2026-10-31",
+  "tatiller": [
+    {
+      "tarih": "2013-01-01",
+      "kod": "yilbasi",
+      "ad": "Yılbaşı",
+      "adEn": "New Year's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2013-04-23",
+      "kod": "ulusal-egemenlik",
+      "ad": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "adEn": "National Sovereignty and Children's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2013-05-01",
+      "kod": "emek-ve-dayanisma",
+      "ad": "Emek ve Dayanışma Günü",
+      "adEn": "Labour and Solidarity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2013-05-19",
+      "kod": "genclik-ve-spor",
+      "ad": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "adEn": "Commemoration of Atatürk, Youth and Sports Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazar"
+    },
+    {
+      "tarih": "2013-08-07",
+      "kod": "ramazan-bayrami-arife",
+      "ad": "Ramazan Bayramı Arifesi",
+      "adEn": "Eid al-Fitr Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2013-08-08",
+      "kod": "ramazan-bayrami-1",
+      "ad": "Ramazan Bayramı 1. Gün",
+      "adEn": "Eid al-Fitr (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2013-08-09",
+      "kod": "ramazan-bayrami-2",
+      "ad": "Ramazan Bayramı 2. Gün",
+      "adEn": "Eid al-Fitr (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2013-08-10",
+      "kod": "ramazan-bayrami-3",
+      "ad": "Ramazan Bayramı 3. Gün",
+      "adEn": "Eid al-Fitr (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cumartesi"
+    },
+    {
+      "tarih": "2013-08-30",
+      "kod": "zafer",
+      "ad": "Zafer Bayramı",
+      "adEn": "Victory Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2013-10-14",
+      "kod": "kurban-bayrami-arife",
+      "ad": "Kurban Bayramı Arifesi",
+      "adEn": "Eid al-Adha Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2013-10-15",
+      "kod": "kurban-bayrami-1",
+      "ad": "Kurban Bayramı 1. Gün",
+      "adEn": "Eid al-Adha (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2013-10-16",
+      "kod": "kurban-bayrami-2",
+      "ad": "Kurban Bayramı 2. Gün",
+      "adEn": "Eid al-Adha (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2013-10-17",
+      "kod": "kurban-bayrami-3",
+      "ad": "Kurban Bayramı 3. Gün",
+      "adEn": "Eid al-Adha (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2013-10-18",
+      "kod": "kurban-bayrami-4",
+      "ad": "Kurban Bayramı 4. Gün",
+      "adEn": "Eid al-Adha (Day 4)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2013-10-28",
+      "kod": "cumhuriyet-arife",
+      "ad": "Cumhuriyet Bayramı Arifesi",
+      "adEn": "Republic Day Eve",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2013-10-29",
+      "kod": "cumhuriyet",
+      "ad": "Cumhuriyet Bayramı",
+      "adEn": "Republic Day",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    }
+  ],
+  "idariIzinler": [],
+  "bayramlar": [
+    {
+      "tur": "ramazan",
+      "ad": "Ramazan Bayramı",
+      "adEn": "Eid al-Fitr",
+      "arife": "2013-08-07",
+      "baslangic": "2013-08-08",
+      "bitis": "2013-08-10",
+      "gunler": [
+        "2013-08-08",
+        "2013-08-09",
+        "2013-08-10"
+      ],
+      "tahmini": false
+    },
+    {
+      "tur": "kurban",
+      "ad": "Kurban Bayramı",
+      "adEn": "Eid al-Adha",
+      "arife": "2013-10-14",
+      "baslangic": "2013-10-15",
+      "bitis": "2013-10-18",
+      "gunler": [
+        "2013-10-15",
+        "2013-10-16",
+        "2013-10-17",
+        "2013-10-18"
+      ],
+      "tahmini": false
+    }
+  ],
+  "ozet": {
+    "tamGun": 13,
+    "yarimGun": 3,
+    "haftaIcineDenkGelen": 11,
+    "isGunu": 248.5
+  },
+  "aylar": [
+    {
+      "yil": 2013,
+      "ay": 1,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2013,
+      "ay": 2,
+      "takvimGunu": 28,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2013,
+      "ay": 3,
+      "takvimGunu": 31,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 0,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2013,
+      "ay": 4,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2013,
+      "ay": 5,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2013,
+      "ay": 6,
+      "takvimGunu": 30,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 0,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2013,
+      "ay": 7,
+      "takvimGunu": 31,
+      "tamIsGunu": 23,
+      "yarimIsGunu": 0,
+      "isGunu": 23,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2013,
+      "ay": 8,
+      "takvimGunu": 31,
+      "tamIsGunu": 18,
+      "yarimIsGunu": 1,
+      "isGunu": 18.5,
+      "tatil": 3,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2013,
+      "ay": 9,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 0,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2013,
+      "ay": 10,
+      "takvimGunu": 31,
+      "tamIsGunu": 16,
+      "yarimIsGunu": 2,
+      "isGunu": 17,
+      "tatil": 5,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2013,
+      "ay": 11,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 0,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2013,
+      "ay": 12,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 9
+    }
+  ],
+  "kopruler": [
+    {
+      "izinGunleri": [
+        "2012-12-31"
+      ],
+      "izin": 1,
+      "baslangic": "2012-12-29",
+      "bitis": "2013-01-01",
+      "toplamGun": 4,
+      "tatiller": [
+        "Yılbaşı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2013-04-22"
+      ],
+      "izin": 1,
+      "baslangic": "2013-04-20",
+      "bitis": "2013-04-23",
+      "toplamGun": 4,
+      "tatiller": [
+        "Ulusal Egemenlik ve Çocuk Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2013-04-29",
+        "2013-04-30"
+      ],
+      "izin": 2,
+      "baslangic": "2013-04-27",
+      "bitis": "2013-05-01",
+      "toplamGun": 5,
+      "tatiller": [
+        "Emek ve Dayanışma Günü"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2013-05-02",
+        "2013-05-03"
+      ],
+      "izin": 2,
+      "baslangic": "2013-05-01",
+      "bitis": "2013-05-05",
+      "toplamGun": 5,
+      "tatiller": [
+        "Emek ve Dayanışma Günü"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2013-10-14"
+      ],
+      "izin": 0.5,
+      "baslangic": "2013-10-12",
+      "bitis": "2013-10-20",
+      "toplamGun": 9,
+      "tatiller": [
+        "Kurban Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2013-10-28"
+      ],
+      "izin": 0.5,
+      "baslangic": "2013-10-26",
+      "bitis": "2013-10-29",
+      "toplamGun": 4,
+      "tatiller": [
+        "Cumhuriyet Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2013-12-30",
+        "2013-12-31"
+      ],
+      "izin": 2,
+      "baslangic": "2013-12-28",
+      "bitis": "2014-01-01",
+      "toplamGun": 5,
+      "tatiller": [
+        "Yılbaşı"
+      ]
+    }
+  ]
+}

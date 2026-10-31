@@ -1,0 +1,420 @@
+{
+  "yil": 2021,
+  "guncelleme": "2026-10-31",
+  "tatiller": [
+    {
+      "tarih": "2021-01-01",
+      "kod": "yilbasi",
+      "ad": "Yılbaşı",
+      "adEn": "New Year's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2021-04-23",
+      "kod": "ulusal-egemenlik",
+      "ad": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "adEn": "National Sovereignty and Children's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2021-05-01",
+      "kod": "emek-ve-dayanisma",
+      "ad": "Emek ve Dayanışma Günü",
+      "adEn": "Labour and Solidarity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cumartesi"
+    },
+    {
+      "tarih": "2021-05-12",
+      "kod": "ramazan-bayrami-arife",
+      "ad": "Ramazan Bayramı Arifesi",
+      "adEn": "Eid al-Fitr Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2021-05-13",
+      "kod": "ramazan-bayrami-1",
+      "ad": "Ramazan Bayramı 1. Gün",
+      "adEn": "Eid al-Fitr (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2021-05-14",
+      "kod": "ramazan-bayrami-2",
+      "ad": "Ramazan Bayramı 2. Gün",
+      "adEn": "Eid al-Fitr (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2021-05-15",
+      "kod": "ramazan-bayrami-3",
+      "ad": "Ramazan Bayramı 3. Gün",
+      "adEn": "Eid al-Fitr (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cumartesi"
+    },
+    {
+      "tarih": "2021-05-19",
+      "kod": "genclik-ve-spor",
+      "ad": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "adEn": "Commemoration of Atatürk, Youth and Sports Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2021-07-15",
+      "kod": "demokrasi-ve-milli-birlik",
+      "ad": "Demokrasi ve Millî Birlik Günü",
+      "adEn": "Democracy and National Unity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2021-07-19",
+      "kod": "kurban-bayrami-arife",
+      "ad": "Kurban Bayramı Arifesi",
+      "adEn": "Eid al-Adha Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2021-07-20",
+      "kod": "kurban-bayrami-1",
+      "ad": "Kurban Bayramı 1. Gün",
+      "adEn": "Eid al-Adha (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2021-07-21",
+      "kod": "kurban-bayrami-2",
+      "ad": "Kurban Bayramı 2. Gün",
+      "adEn": "Eid al-Adha (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2021-07-22",
+      "kod": "kurban-bayrami-3",
+      "ad": "Kurban Bayramı 3. Gün",
+      "adEn": "Eid al-Adha (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2021-07-23",
+      "kod": "kurban-bayrami-4",
+      "ad": "Kurban Bayramı 4. Gün",
+      "adEn": "Eid al-Adha (Day 4)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2021-08-30",
+      "kod": "zafer",
+      "ad": "Zafer Bayramı",
+      "adEn": "Victory Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2021-10-28",
+      "kod": "cumhuriyet-arife",
+      "ad": "Cumhuriyet Bayramı Arifesi",
+      "adEn": "Republic Day Eve",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2021-10-29",
+      "kod": "cumhuriyet",
+      "ad": "Cumhuriyet Bayramı",
+      "adEn": "Republic Day",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    }
+  ],
+  "idariIzinler": [],
+  "bayramlar": [
+    {
+      "tur": "ramazan",
+      "ad": "Ramazan Bayramı",
+      "adEn": "Eid al-Fitr",
+      "arife": "2021-05-12",
+      "baslangic": "2021-05-13",
+      "bitis": "2021-05-15",
+      "gunler": [
+        "2021-05-13",
+        "2021-05-14",
+        "2021-05-15"
+      ],
+      "tahmini": false
+    },
+    {
+      "tur": "kurban",
+      "ad": "Kurban Bayramı",
+      "adEn": "Eid al-Adha",
+      "arife": "2021-07-19",
+      "baslangic": "2021-07-20",
+      "bitis": "2021-07-23",
+      "gunler": [
+        "2021-07-20",
+        "2021-07-21",
+        "2021-07-22",
+        "2021-07-23"
+      ],
+      "tahmini": false
+    }
+  ],
+  "ozet": {
+    "tamGun": 14,
+    "yarimGun": 3,
+    "haftaIcineDenkGelen": 12,
+    "isGunu": 247.5
+  },
+  "aylar": [
+    {
+      "yil": 2021,
+      "ay": 1,
+      "takvimGunu": 31,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 1,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2021,
+      "ay": 2,
+      "takvimGunu": 28,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2021,
+      "ay": 3,
+      "takvimGunu": 31,
+      "tamIsGunu": 23,
+      "yarimIsGunu": 0,
+      "isGunu": 23,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2021,
+      "ay": 4,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2021,
+      "ay": 5,
+      "takvimGunu": 31,
+      "tamIsGunu": 17,
+      "yarimIsGunu": 1,
+      "isGunu": 17.5,
+      "tatil": 3,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2021,
+      "ay": 6,
+      "takvimGunu": 30,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2021,
+      "ay": 7,
+      "takvimGunu": 31,
+      "tamIsGunu": 16,
+      "yarimIsGunu": 1,
+      "isGunu": 16.5,
+      "tatil": 5,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2021,
+      "ay": 8,
+      "takvimGunu": 31,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2021,
+      "ay": 9,
+      "takvimGunu": 30,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2021,
+      "ay": 10,
+      "takvimGunu": 31,
+      "tamIsGunu": 19,
+      "yarimIsGunu": 1,
+      "isGunu": 19.5,
+      "tatil": 1,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2021,
+      "ay": 11,
+      "takvimGunu": 30,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2021,
+      "ay": 12,
+      "takvimGunu": 31,
+      "tamIsGunu": 23,
+      "yarimIsGunu": 0,
+      "isGunu": 23,
+      "tatil": 0,
+      "haftaSonu": 8
+    }
+  ],
+  "kopruler": [
+    {
+      "izinGunleri": [
+        "2021-05-17",
+        "2021-05-18"
+      ],
+      "izin": 2,
+      "baslangic": "2021-05-13",
+      "bitis": "2021-05-19",
+      "toplamGun": 7,
+      "tatiller": [
+        "Ramazan Bayramı",
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2021-05-20",
+        "2021-05-21"
+      ],
+      "izin": 2,
+      "baslangic": "2021-05-19",
+      "bitis": "2021-05-23",
+      "toplamGun": 5,
+      "tatiller": [
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2021-07-16"
+      ],
+      "izin": 1,
+      "baslangic": "2021-07-15",
+      "bitis": "2021-07-18",
+      "toplamGun": 4,
+      "tatiller": [
+        "Demokrasi ve Millî Birlik Günü"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2021-07-16",
+        "2021-07-19"
+      ],
+      "izin": 1.5,
+      "baslangic": "2021-07-15",
+      "bitis": "2021-07-25",
+      "toplamGun": 11,
+      "tatiller": [
+        "Demokrasi ve Millî Birlik Günü",
+        "Kurban Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2021-07-19"
+      ],
+      "izin": 0.5,
+      "baslangic": "2021-07-17",
+      "bitis": "2021-07-25",
+      "toplamGun": 9,
+      "tatiller": [
+        "Kurban Bayramı"
+      ]
+    }
+  ]
+}

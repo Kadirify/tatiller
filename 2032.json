@@ -1,0 +1,430 @@
+{
+  "yil": 2032,
+  "guncelleme": "2026-10-31",
+  "tatiller": [
+    {
+      "tarih": "2032-01-01",
+      "kod": "yilbasi",
+      "ad": "Yılbaşı",
+      "adEn": "New Year's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2032-01-13",
+      "kod": "ramazan-bayrami-arife",
+      "ad": "Ramazan Bayramı Arifesi",
+      "adEn": "Eid al-Fitr Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2032-01-14",
+      "kod": "ramazan-bayrami-1",
+      "ad": "Ramazan Bayramı 1. Gün",
+      "adEn": "Eid al-Fitr (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2032-01-15",
+      "kod": "ramazan-bayrami-2",
+      "ad": "Ramazan Bayramı 2. Gün",
+      "adEn": "Eid al-Fitr (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2032-01-16",
+      "kod": "ramazan-bayrami-3",
+      "ad": "Ramazan Bayramı 3. Gün",
+      "adEn": "Eid al-Fitr (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2032-03-21",
+      "kod": "kurban-bayrami-arife",
+      "ad": "Kurban Bayramı Arifesi",
+      "adEn": "Eid al-Adha Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Pazar"
+    },
+    {
+      "tarih": "2032-03-22",
+      "kod": "kurban-bayrami-1",
+      "ad": "Kurban Bayramı 1. Gün",
+      "adEn": "Eid al-Adha (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2032-03-23",
+      "kod": "kurban-bayrami-2",
+      "ad": "Kurban Bayramı 2. Gün",
+      "adEn": "Eid al-Adha (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2032-03-24",
+      "kod": "kurban-bayrami-3",
+      "ad": "Kurban Bayramı 3. Gün",
+      "adEn": "Eid al-Adha (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2032-03-25",
+      "kod": "kurban-bayrami-4",
+      "ad": "Kurban Bayramı 4. Gün",
+      "adEn": "Eid al-Adha (Day 4)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2032-04-23",
+      "kod": "ulusal-egemenlik",
+      "ad": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "adEn": "National Sovereignty and Children's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2032-05-01",
+      "kod": "emek-ve-dayanisma",
+      "ad": "Emek ve Dayanışma Günü",
+      "adEn": "Labour and Solidarity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cumartesi"
+    },
+    {
+      "tarih": "2032-05-19",
+      "kod": "genclik-ve-spor",
+      "ad": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "adEn": "Commemoration of Atatürk, Youth and Sports Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2032-07-15",
+      "kod": "demokrasi-ve-milli-birlik",
+      "ad": "Demokrasi ve Millî Birlik Günü",
+      "adEn": "Democracy and National Unity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2032-08-30",
+      "kod": "zafer",
+      "ad": "Zafer Bayramı",
+      "adEn": "Victory Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2032-10-28",
+      "kod": "cumhuriyet-arife",
+      "ad": "Cumhuriyet Bayramı Arifesi",
+      "adEn": "Republic Day Eve",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2032-10-29",
+      "kod": "cumhuriyet",
+      "ad": "Cumhuriyet Bayramı",
+      "adEn": "Republic Day",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    }
+  ],
+  "idariIzinler": [],
+  "bayramlar": [
+    {
+      "tur": "ramazan",
+      "ad": "Ramazan Bayramı",
+      "adEn": "Eid al-Fitr",
+      "arife": "2032-01-13",
+      "baslangic": "2032-01-14",
+      "bitis": "2032-01-16",
+      "gunler": [
+        "2032-01-14",
+        "2032-01-15",
+        "2032-01-16"
+      ],
+      "tahmini": false
+    },
+    {
+      "tur": "kurban",
+      "ad": "Kurban Bayramı",
+      "adEn": "Eid al-Adha",
+      "arife": "2032-03-21",
+      "baslangic": "2032-03-22",
+      "bitis": "2032-03-25",
+      "gunler": [
+        "2032-03-22",
+        "2032-03-23",
+        "2032-03-24",
+        "2032-03-25"
+      ],
+      "tahmini": false
+    }
+  ],
+  "ozet": {
+    "tamGun": 14,
+    "yarimGun": 3,
+    "haftaIcineDenkGelen": 13,
+    "isGunu": 248
+  },
+  "aylar": [
+    {
+      "yil": 2032,
+      "ay": 1,
+      "takvimGunu": 31,
+      "tamIsGunu": 17,
+      "yarimIsGunu": 1,
+      "isGunu": 17.5,
+      "tatil": 4,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2032,
+      "ay": 2,
+      "takvimGunu": 29,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 0,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2032,
+      "ay": 3,
+      "takvimGunu": 31,
+      "tamIsGunu": 19,
+      "yarimIsGunu": 0,
+      "isGunu": 19,
+      "tatil": 4,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2032,
+      "ay": 4,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2032,
+      "ay": 5,
+      "takvimGunu": 31,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 1,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2032,
+      "ay": 6,
+      "takvimGunu": 30,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2032,
+      "ay": 7,
+      "takvimGunu": 31,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2032,
+      "ay": 8,
+      "takvimGunu": 31,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2032,
+      "ay": 9,
+      "takvimGunu": 30,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2032,
+      "ay": 10,
+      "takvimGunu": 31,
+      "tamIsGunu": 19,
+      "yarimIsGunu": 1,
+      "isGunu": 19.5,
+      "tatil": 1,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2032,
+      "ay": 11,
+      "takvimGunu": 30,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2032,
+      "ay": 12,
+      "takvimGunu": 31,
+      "tamIsGunu": 23,
+      "yarimIsGunu": 0,
+      "isGunu": 23,
+      "tatil": 0,
+      "haftaSonu": 8
+    }
+  ],
+  "kopruler": [
+    {
+      "izinGunleri": [
+        "2032-01-02"
+      ],
+      "izin": 1,
+      "baslangic": "2032-01-01",
+      "bitis": "2032-01-04",
+      "toplamGun": 4,
+      "tatiller": [
+        "Yılbaşı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2032-01-12",
+        "2032-01-13"
+      ],
+      "izin": 1.5,
+      "baslangic": "2032-01-10",
+      "bitis": "2032-01-18",
+      "toplamGun": 9,
+      "tatiller": [
+        "Ramazan Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2032-03-26"
+      ],
+      "izin": 1,
+      "baslangic": "2032-03-20",
+      "bitis": "2032-03-28",
+      "toplamGun": 9,
+      "tatiller": [
+        "Kurban Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2032-05-17",
+        "2032-05-18"
+      ],
+      "izin": 2,
+      "baslangic": "2032-05-15",
+      "bitis": "2032-05-19",
+      "toplamGun": 5,
+      "tatiller": [
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2032-05-20",
+        "2032-05-21"
+      ],
+      "izin": 2,
+      "baslangic": "2032-05-19",
+      "bitis": "2032-05-23",
+      "toplamGun": 5,
+      "tatiller": [
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2032-07-16"
+      ],
+      "izin": 1,
+      "baslangic": "2032-07-15",
+      "bitis": "2032-07-18",
+      "toplamGun": 4,
+      "tatiller": [
+        "Demokrasi ve Millî Birlik Günü"
+      ]
+    }
+  ]
+}

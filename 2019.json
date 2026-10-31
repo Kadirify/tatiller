@@ -1,0 +1,480 @@
+{
+  "yil": 2019,
+  "guncelleme": "2026-10-31",
+  "tatiller": [
+    {
+      "tarih": "2019-01-01",
+      "kod": "yilbasi",
+      "ad": "Yılbaşı",
+      "adEn": "New Year's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2019-04-23",
+      "kod": "ulusal-egemenlik",
+      "ad": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "adEn": "National Sovereignty and Children's Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2019-05-01",
+      "kod": "emek-ve-dayanisma",
+      "ad": "Emek ve Dayanışma Günü",
+      "adEn": "Labour and Solidarity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2019-05-19",
+      "kod": "genclik-ve-spor",
+      "ad": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "adEn": "Commemoration of Atatürk, Youth and Sports Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazar"
+    },
+    {
+      "tarih": "2019-06-03",
+      "kod": "ramazan-bayrami-arife",
+      "ad": "Ramazan Bayramı Arifesi",
+      "adEn": "Eid al-Fitr Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2019-06-04",
+      "kod": "ramazan-bayrami-1",
+      "ad": "Ramazan Bayramı 1. Gün",
+      "adEn": "Eid al-Fitr (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2019-06-05",
+      "kod": "ramazan-bayrami-2",
+      "ad": "Ramazan Bayramı 2. Gün",
+      "adEn": "Eid al-Fitr (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2019-06-06",
+      "kod": "ramazan-bayrami-3",
+      "ad": "Ramazan Bayramı 3. Gün",
+      "adEn": "Eid al-Fitr (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Perşembe"
+    },
+    {
+      "tarih": "2019-07-15",
+      "kod": "demokrasi-ve-milli-birlik",
+      "ad": "Demokrasi ve Millî Birlik Günü",
+      "adEn": "Democracy and National Unity Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2019-08-10",
+      "kod": "kurban-bayrami-arife",
+      "ad": "Kurban Bayramı Arifesi",
+      "adEn": "Eid al-Adha Eve",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Cumartesi"
+    },
+    {
+      "tarih": "2019-08-11",
+      "kod": "kurban-bayrami-1",
+      "ad": "Kurban Bayramı 1. Gün",
+      "adEn": "Eid al-Adha (Day 1)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazar"
+    },
+    {
+      "tarih": "2019-08-12",
+      "kod": "kurban-bayrami-2",
+      "ad": "Kurban Bayramı 2. Gün",
+      "adEn": "Eid al-Adha (Day 2)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2019-08-13",
+      "kod": "kurban-bayrami-3",
+      "ad": "Kurban Bayramı 3. Gün",
+      "adEn": "Eid al-Adha (Day 3)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    },
+    {
+      "tarih": "2019-08-14",
+      "kod": "kurban-bayrami-4",
+      "ad": "Kurban Bayramı 4. Gün",
+      "adEn": "Eid al-Adha (Day 4)",
+      "tur": "resmi",
+      "kategori": "dini",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Çarşamba"
+    },
+    {
+      "tarih": "2019-08-30",
+      "kod": "zafer",
+      "ad": "Zafer Bayramı",
+      "adEn": "Victory Day",
+      "tur": "resmi",
+      "kategori": "genel",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Cuma"
+    },
+    {
+      "tarih": "2019-10-28",
+      "kod": "cumhuriyet-arife",
+      "ad": "Cumhuriyet Bayramı Arifesi",
+      "adEn": "Republic Day Eve",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": "ogleden-sonra",
+      "tahmini": false,
+      "gunAdi": "Pazartesi"
+    },
+    {
+      "tarih": "2019-10-29",
+      "kod": "cumhuriyet",
+      "ad": "Cumhuriyet Bayramı",
+      "adEn": "Republic Day",
+      "tur": "resmi",
+      "kategori": "ulusal",
+      "yarimGun": false,
+      "tahmini": false,
+      "gunAdi": "Salı"
+    }
+  ],
+  "idariIzinler": [],
+  "bayramlar": [
+    {
+      "tur": "ramazan",
+      "ad": "Ramazan Bayramı",
+      "adEn": "Eid al-Fitr",
+      "arife": "2019-06-03",
+      "baslangic": "2019-06-04",
+      "bitis": "2019-06-06",
+      "gunler": [
+        "2019-06-04",
+        "2019-06-05",
+        "2019-06-06"
+      ],
+      "tahmini": false
+    },
+    {
+      "tur": "kurban",
+      "ad": "Kurban Bayramı",
+      "adEn": "Eid al-Adha",
+      "arife": "2019-08-10",
+      "baslangic": "2019-08-11",
+      "bitis": "2019-08-14",
+      "gunler": [
+        "2019-08-11",
+        "2019-08-12",
+        "2019-08-13",
+        "2019-08-14"
+      ],
+      "tahmini": false
+    }
+  ],
+  "ozet": {
+    "tamGun": 14,
+    "yarimGun": 3,
+    "haftaIcineDenkGelen": 12,
+    "isGunu": 248
+  },
+  "aylar": [
+    {
+      "yil": 2019,
+      "ay": 1,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2019,
+      "ay": 2,
+      "takvimGunu": 28,
+      "tamIsGunu": 20,
+      "yarimIsGunu": 0,
+      "isGunu": 20,
+      "tatil": 0,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2019,
+      "ay": 3,
+      "takvimGunu": 31,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 0,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2019,
+      "ay": 4,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2019,
+      "ay": 5,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2019,
+      "ay": 6,
+      "takvimGunu": 30,
+      "tamIsGunu": 16,
+      "yarimIsGunu": 1,
+      "isGunu": 16.5,
+      "tatil": 3,
+      "haftaSonu": 10
+    },
+    {
+      "yil": 2019,
+      "ay": 7,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2019,
+      "ay": 8,
+      "takvimGunu": 31,
+      "tamIsGunu": 18,
+      "yarimIsGunu": 0,
+      "isGunu": 18,
+      "tatil": 4,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2019,
+      "ay": 9,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 0,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2019,
+      "ay": 10,
+      "takvimGunu": 31,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 1,
+      "isGunu": 21.5,
+      "tatil": 1,
+      "haftaSonu": 8
+    },
+    {
+      "yil": 2019,
+      "ay": 11,
+      "takvimGunu": 30,
+      "tamIsGunu": 21,
+      "yarimIsGunu": 0,
+      "isGunu": 21,
+      "tatil": 0,
+      "haftaSonu": 9
+    },
+    {
+      "yil": 2019,
+      "ay": 12,
+      "takvimGunu": 31,
+      "tamIsGunu": 22,
+      "yarimIsGunu": 0,
+      "isGunu": 22,
+      "tatil": 0,
+      "haftaSonu": 9
+    }
+  ],
+  "kopruler": [
+    {
+      "izinGunleri": [
+        "2018-12-31"
+      ],
+      "izin": 1,
+      "baslangic": "2018-12-29",
+      "bitis": "2019-01-01",
+      "toplamGun": 4,
+      "tatiller": [
+        "Yılbaşı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-04-22"
+      ],
+      "izin": 1,
+      "baslangic": "2019-04-20",
+      "bitis": "2019-04-23",
+      "toplamGun": 4,
+      "tatiller": [
+        "Ulusal Egemenlik ve Çocuk Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-04-29",
+        "2019-04-30"
+      ],
+      "izin": 2,
+      "baslangic": "2019-04-27",
+      "bitis": "2019-05-01",
+      "toplamGun": 5,
+      "tatiller": [
+        "Emek ve Dayanışma Günü"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-05-02",
+        "2019-05-03"
+      ],
+      "izin": 2,
+      "baslangic": "2019-05-01",
+      "bitis": "2019-05-05",
+      "toplamGun": 5,
+      "tatiller": [
+        "Emek ve Dayanışma Günü"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-06-03"
+      ],
+      "izin": 0.5,
+      "baslangic": "2019-06-01",
+      "bitis": "2019-06-06",
+      "toplamGun": 6,
+      "tatiller": [
+        "Ramazan Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-06-03",
+        "2019-06-07"
+      ],
+      "izin": 1.5,
+      "baslangic": "2019-06-01",
+      "bitis": "2019-06-09",
+      "toplamGun": 9,
+      "tatiller": [
+        "Ramazan Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-06-07"
+      ],
+      "izin": 1,
+      "baslangic": "2019-06-04",
+      "bitis": "2019-06-09",
+      "toplamGun": 6,
+      "tatiller": [
+        "Ramazan Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-08-15",
+        "2019-08-16"
+      ],
+      "izin": 2,
+      "baslangic": "2019-08-10",
+      "bitis": "2019-08-18",
+      "toplamGun": 9,
+      "tatiller": [
+        "Kurban Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-10-28"
+      ],
+      "izin": 0.5,
+      "baslangic": "2019-10-26",
+      "bitis": "2019-10-29",
+      "toplamGun": 4,
+      "tatiller": [
+        "Cumhuriyet Bayramı"
+      ]
+    },
+    {
+      "izinGunleri": [
+        "2019-12-30",
+        "2019-12-31"
+      ],
+      "izin": 2,
+      "baslangic": "2019-12-28",
+      "bitis": "2020-01-01",
+      "toplamGun": 5,
+      "tatiller": [
+        "Yılbaşı"
+      ]
+    }
+  ]
+}

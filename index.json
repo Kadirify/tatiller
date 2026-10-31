@@ -1,0 +1,27 @@
+{
+  "ad": "tatiller",
+  "surum": "1.0.0",
+  "guncelleme": "2026-10-31",
+  "yillar": {
+    "ilk": 2010,
+    "son": 2035
+  },
+  "adres": {
+    "raw": "https://raw.githubusercontent.com/Kadirify/tatiller/json",
+    "cdn": "https://cdn.jsdelivr.net/gh/Kadirify/tatiller@json"
+  },
+  "dosyalar": {
+    "bugun": "https://raw.githubusercontent.com/Kadirify/tatiller/json/bugun.json",
+    "yil": "https://raw.githubusercontent.com/Kadirify/tatiller/json/{yil}.json",
+    "csv": "https://raw.githubusercontent.com/Kadirify/tatiller/json/{yil}.csv",
+    "ics": "https://raw.githubusercontent.com/Kadirify/tatiller/json/{yil}.ics",
+    "hepsi": "https://raw.githubusercontent.com/Kadirify/tatiller/json/tatiller.json",
+    "takvimAboneligi": "https://raw.githubusercontent.com/Kadirify/tatiller/json/tatiller.ics"
+  },
+  "kaynaklar": {
+    "sabit": "2429 sayılı Ulusal Bayram ve Genel Tatiller Hakkında Kanun",
+    "bayram": "Diyanet İşleri Başkanlığı, Dini Günler Listesi",
+    "idari": "Cumhurbaşkanlığı genelge ve yazıları (en az iki kaynakla doğrulanmış)",
+    "belge": "https://github.com/Kadirify/tatiller/blob/main/docs/veri.md"
+  }
+}
