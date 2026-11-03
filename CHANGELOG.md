@@ -1,5 +1,9 @@
 # Değişiklikler
 
+## 1.0.1
+
+- README: npm sayfası ve tarayıcıda kurulumsuz kullanım.
+
 ## 1.0.0 (2026-10-30)
 
 İlk sürüm.
