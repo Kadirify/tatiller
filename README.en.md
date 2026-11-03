@@ -27,6 +27,9 @@ not moved to Monday.
 npm install tatiller
 ```
 
+On npm: [npmjs.com/package/tatiller](https://www.npmjs.com/package/tatiller). In the browser without installing:
+`import { tatiller } from 'https://cdn.jsdelivr.net/npm/tatiller@1/+esm'`
+
 ## Cheat sheet
 
 | Function | What it does |

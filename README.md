@@ -1,6 +1,7 @@
 # tatiller
 
 [![npm](https://img.shields.io/npm/v/tatiller)](https://www.npmjs.com/package/tatiller)
+[![indirme](https://img.shields.io/npm/dm/tatiller)](https://www.npmjs.com/package/tatiller)
 [![CI](https://github.com/Kadirify/tatiller/actions/workflows/ci.yml/badge.svg)](https://github.com/Kadirify/tatiller/actions/workflows/ci.yml)
 [![lisans](https://img.shields.io/badge/lisans-MIT-blue)](LICENSE)
 
@@ -28,7 +29,19 @@ idari izin veriliyor ama özel sektöre verilmiyor.
 npm install tatiller
 ```
 
+npm sayfası: [npmjs.com/package/tatiller](https://www.npmjs.com/package/tatiller).
 Node 20 ve üstü. ESM ve CommonJS ikisi de çalışıyor.
+
+Kurmadan, tarayıcıda doğrudan:
+
+```html
+<script type="module">
+  import { sonrakiTatil } from 'https://cdn.jsdelivr.net/npm/tatiller@1/+esm';
+  document.body.textContent = sonrakiTatil().ad;
+</script>
+```
+
+Sadece veri lazımsa JavaScript'e de gerek yok, aşağıdaki [JSON adreslerine](#npm-kurmadan) bakın.
 
 ## npm kurmadan
 
